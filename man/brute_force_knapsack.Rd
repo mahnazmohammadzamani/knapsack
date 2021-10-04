@@ -13,8 +13,6 @@ brute_force_knapsack(x, W)
 \item{W}{weight threshold for the knapsack}
 
 \item{...}{arguments}
-
-\item{parallel}{boolean, if 'T' then implements parallelization}
 }
 \value{
 Total and Maximum value within the threshold of W

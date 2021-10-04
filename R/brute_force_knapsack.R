@@ -3,7 +3,6 @@
 #' @param x data.frame, contains variables weight(w) and value(v)
 #' @param W weight threshold for the knapsack
 #' @param ... arguments
-#' @param parallel boolean, if 'T' then implements parallelization
 #' @return Total and Maximum value within the threshold of W
 #' @references
 #' \url{https://en.wikipedia.org/wiki/Knapsack problem}

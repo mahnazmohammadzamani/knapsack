@@ -90,13 +90,6 @@ mean(unlist(lapply(c(1000,2500,5000,10000,15000,20000), FUN = get_time)))
     
 ## 1.1.7 Parallelize brute force search
 
-- Set parameter `parallel = T` 
-
-```{r, eval=F}
-brute_force_knapsack(x = knapsack_objects[1:8,], W = 3500, parallel = T)
-brute_force_knapsack(x = knapsack_objects[1:8,], W = 2000, parallel = T)
-```
-
 # 1.2 Profile and improve your existing API package
 
 ## Solution-1: Add Memoization to reduce API calls overhead
