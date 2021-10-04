@@ -12,7 +12,8 @@ greedy_knapsack(x, W)
 \item{W}{weight threshold for the knapsack}
 }
 \value{
-
+Total v and position of w's for that value
+\url{https://en.wikipedia.org/wiki/Knapsack_problem#0.2F1\%20knapsack\%20problem}
 }
 \description{
 Implements Greedy ALgorithm for knapsack problem

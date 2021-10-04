@@ -1,16 +1,20 @@
 Package: knapsack
 Type: Package
-Title: Lab6
-Version: 1.0
+Title: Slow and Fast solves for the Knapsack Problem
+Description: Implemets the functions required in Lab-6.
+Version: 0.0.0.9000
 Date: 2021-10-04
 Author: person("Mahnaz", "Mohammadzamani", email = "mahnaz.mzamani@gmail.com", c("aut", "cre"))
 Maintainer: omid lavakhamseh <omid.lava2021@gmail.com>
-Description: Writing fast R code
-License: GPL (>= 2)
-RoxygenNote: 7.1.2
+License: MIT + file LICENSE
 Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
 Suggests: 
+    testthat,
     knitr,
     rmarkdown
+Depends: 
+    R (>= 2.10)
 VignetteBuilder: knitr
-
