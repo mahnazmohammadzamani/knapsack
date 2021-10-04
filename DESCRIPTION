@@ -11,10 +11,14 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
-Suggests: 
-    testthat,
-    knitr,
-    rmarkdown
 Depends: 
     R (>= 2.10)
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Imports: 
+    profvis,
+    parallel
 VignetteBuilder: knitr
+Config/testthat/edition: 3

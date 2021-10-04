@@ -1,8 +1,8 @@
 ---
-title: "Slow and Fast solves for the Knapsack Problem"
+title: Slow and Fast solves for the Knapsack Problem
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{"Slow and Fast solves for the Knapsack Problem"}
+  %\VignetteIndexEntry{Slow and Fast solves for the Knapsack Problem}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -25,7 +25,7 @@ library(knapsack)
 ```{r, eval=F}
 # Function to get time
 get_time <- function(i){
-  time <- system.time(expr = brute_force_knapsack(x = knapsack_objects[1:16,], W=i))[3]
+  time <- system.time(expr = brute_force_knapsack(x = knapsack_objects[1:12,], W=i))[3]
   return(time)}
 
 # Function to get mean execution time
@@ -72,8 +72,6 @@ get_time <- function(i){
   time <- system.time(expr = greedy_knapsack(x = knapsack_objects[1:1000000,], W=i))[3]
   return(time)}
 
-
-mean(unlist(lapply(c(1000,2500,5000,10000,15000,20000), FUN = get_time)))
 
 # Function to get mean execution time
 mean(unlist(lapply(c(1000,2500,5000,10000,15000,20000), FUN = get_time)))
