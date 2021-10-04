@@ -11,8 +11,6 @@ brute_force_knapsack(x, W)
 \item{x}{data.frame, contains variables weight(w) and value(v)}
 
 \item{W}{weight threshold for the knapsack}
-
-\item{...}{arguments}
 }
 \value{
 Total and Maximum value within the threshold of W
@@ -23,9 +21,4 @@ The function returns maximum value within all the possible solutions
 }
 \references{
 \url{https://en.wikipedia.org/wiki/Knapsack problem}
-}
-\seealso{
-\code{\link{slow_brute_force}}
-\code{\link{greedy_knapsack}}
-\code{\link{knapsack_dynamic}}
 }

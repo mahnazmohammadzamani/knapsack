@@ -2,14 +2,10 @@
 #' The function returns maximum value within all the possible solutions
 #' @param x data.frame, contains variables weight(w) and value(v)
 #' @param W weight threshold for the knapsack
-#' @param ... arguments
 #' @return Total and Maximum value within the threshold of W
 #' @references
 #' \url{https://en.wikipedia.org/wiki/Knapsack problem}
-#' @seealso
-#' \code{\link{slow_brute_force}}
-#' \code{\link{greedy_knapsack}}
-#' \code{\link{knapsack_dynamic}}
+
 
 brute_force_knapsack <- function(x, W){
   if (!is.data.frame(x))
