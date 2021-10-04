@@ -5,10 +5,6 @@
 #' @seealso
 #' \code{\link{brute_force_knapsack}}
 #' \code{\link{greedy_knapsack}}
-#' @export
-#' @examples
-#' knapsack_dynamic(x = knapsack_objects[1:8,], W = 2000)
-#' knapsack_dynamic(x = knapsack_objects[1:12,], W = 3500)
 
 knapsack_dynamic<-function(x,W){
   stopifnot( is.data.frame(x),

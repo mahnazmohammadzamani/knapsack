@@ -17,10 +17,6 @@ Total and Maximum value within the threshold of W
 \description{
 Dynamic Implementation of Knapsack Algorithm
 }
-\examples{
-knapsack_dynamic(x = knapsack_objects[1:8,], W = 2000)
-knapsack_dynamic(x = knapsack_objects[1:12,], W = 3500)
-}
 \seealso{
 \code{\link{brute_force_knapsack}}
 \code{\link{greedy_knapsack}}

@@ -11,12 +11,6 @@
 #' \code{\link{slow_brute_force}}
 #' \code{\link{greedy_knapsack}}
 #' \code{\link{knapsack_dynamic}}
-#' @export
-#' @examples
-#' brute_force_knapsack(x = knapsack_objects[1:8,], W = 3500, parallel = FALSE)
-#' brute_force_knapsack(x = knapsack_objects[1:12,], W = 3500, parallel = FALSE)
-#' brute_force_knapsack(x = knapsack_objects[1:8,], W = 2000, parallel = FALSE)
-#' brute_force_knapsack(x = knapsack_objects[1:12,], W = 2000, parallel = FALSE)
 
 brute_force_knapsack <- function(x, W){
   if (!is.data.frame(x))
@@ -55,6 +49,6 @@ brute_force_knapsack <- function(x, W){
   #convert to row index:
   elements = which(!opt_weights[,1] == 0) #row elements that doesn't start with 0
   
-  list1 = list(value = as.integer(value), elements = elements)
+  list1 = list(value = round(value), elements = elements)
   return(list1)
 }

@@ -6,10 +6,7 @@
 #' @seealso
 #' \code{\link{brute_force_knapsack}}
 #' \code{\link{knapsack_dynamic}}
-#' @export
-#' @examples
-#' greedy_knapsack(x = knapsack_objects[1:800,], W = 3500)
-#' greedy_knapsack(x = knapsack_objects[1:1200,], W = 2000)
+
 
 greedy_knapsack <- function(x, W){
   stopifnot(inherits(x,"data.frame"))
@@ -41,9 +38,10 @@ greedy_knapsack <- function(x, W){
     i=i+1
   }
 
-  returnList=list(value=as.integer(varde),elements=x$origIndex[combination])
+  returnList=list(value=round(varde),elements=x$origIndex[combination])
 
 
   return(returnList)
 
 }
+

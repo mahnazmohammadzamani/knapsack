@@ -23,12 +23,6 @@ Total and Maximum value within the threshold of W
 Brute Force Knapsack Algorithm
 The function returns maximum value within all the possible solutions
 }
-\examples{
-brute_force_knapsack(x = knapsack_objects[1:8,], W = 3500, parallel = FALSE)
-brute_force_knapsack(x = knapsack_objects[1:12,], W = 3500, parallel = FALSE)
-brute_force_knapsack(x = knapsack_objects[1:8,], W = 2000, parallel = FALSE)
-brute_force_knapsack(x = knapsack_objects[1:12,], W = 2000, parallel = FALSE)
-}
 \references{
 \url{https://en.wikipedia.org/wiki/Knapsack problem}
 }

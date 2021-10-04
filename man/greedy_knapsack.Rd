@@ -18,10 +18,6 @@ Total v and position of w's for that value
 \description{
 Implements Greedy ALgorithm for knapsack problem
 }
-\examples{
-greedy_knapsack(x = knapsack_objects[1:800,], W = 3500)
-greedy_knapsack(x = knapsack_objects[1:1200,], W = 2000)
-}
 \seealso{
 \code{\link{brute_force_knapsack}}
 \code{\link{knapsack_dynamic}}
