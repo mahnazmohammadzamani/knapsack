@@ -11,3 +11,4 @@ x <-
 W <- 2000
 
 profvis::profvis({greedy_knapsack(x, W)})
+profvis::profvis({another_greedy_knapsack(x, W)})
