@@ -1,4 +1,4 @@
-#' Implements Greedy ALgorithm for knapsack problem
+#' Implements Greedy Algorithm for knapsack problem
 #' @param x data.frame, contains variables weight(w) and value(v)
 #' @param W weight threshold for the knapsack
 #' @return Total v and position of w's for that value
@@ -6,6 +6,7 @@
 #' @seealso
 #' \code{\link{brute_force_knapsack}}
 #' \code{\link{knapsack_dynamic}}
+#' @export
 
 
 greedy_knapsack <- function(x, W){
@@ -44,4 +45,5 @@ greedy_knapsack <- function(x, W){
   return(returnList)
 
 }
+
 

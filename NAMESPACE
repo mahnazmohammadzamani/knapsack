@@ -2,5 +2,8 @@
 
 export(another_greedy_knapsack)
 export(brute_force_knapsack)
-import(parallel)
+export(brute_force_knapsack_parallel)
+export(greedy_knapsack)
+export(knapsack_dynamic)
 import(profvis)
+importFrom(utils,combn)

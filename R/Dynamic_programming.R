@@ -5,6 +5,7 @@
 #' @seealso
 #' \code{\link{brute_force_knapsack}}
 #' \code{\link{greedy_knapsack}}
+#' @export
 
 knapsack_dynamic<-function(x,W){
   stopifnot( is.data.frame(x),

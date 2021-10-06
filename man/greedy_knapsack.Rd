@@ -2,7 +2,7 @@
 % Please edit documentation in R/greedy_heuristic.r
 \name{greedy_knapsack}
 \alias{greedy_knapsack}
-\title{Implements Greedy ALgorithm for knapsack problem}
+\title{Implements Greedy Algorithm for knapsack problem}
 \usage{
 greedy_knapsack(x, W)
 }
@@ -16,7 +16,7 @@ Total v and position of w's for that value
 \url{https://en.wikipedia.org/wiki/Knapsack_problem#0.2F1\%20knapsack\%20problem}
 }
 \description{
-Implements Greedy ALgorithm for knapsack problem
+Implements Greedy Algorithm for knapsack problem
 }
 \seealso{
 \code{\link{brute_force_knapsack}}

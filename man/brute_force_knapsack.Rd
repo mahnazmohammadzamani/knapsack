@@ -2,20 +2,28 @@
 % Please edit documentation in R/brute_force_knapsack.R
 \name{brute_force_knapsack}
 \alias{brute_force_knapsack}
-\title{A Brute-Force Solution for the Knapsack Problem}
+\title{Brute force algorithm for the knapsack problem}
 \usage{
-brute_force_knapsack(x, W, parallel = FALSE)
+brute_force_knapsack(x, W)
 }
 \arguments{
-\item{x}{a \code{data.frame} with two columns, "w" and "v", indicating the weight and value of items respectively}
+\item{x}{is a data.frame containing variables 'w' and 'v', weights and values}
 
-\item{W}{the maximum weight that the knapsack can hold}
-
-\item{parallel}{TRUE if a parallelised version of the solution is to be called; FALSE by default}
-}
-\value{
-a \code{list} containing two elements: \code{value} and \code{elements}, representing the maximum value that can be realised with the given knapsack and the indices of the items to be packed in the knapsack for realising maximum value
+\item{W}{is the total size of the knapsack}
 }
 \description{
-A Brute-Force Solution for the Knapsack Problem
+Brute force algorithm for the knapsack problem
+}
+\details{
+This algorithm gives all possible values with good accuracy , and also gives the maximum value for the knapsack
+}
+\references{
+\url{https://en.wikipedia.org/wiki/Knapsack_problem}
+}
+\seealso{
+\code{\link{knapsack_dynamic}}
+\code{\link{greedy_knapsack}}
+}
+\author{
+Mahnaz Mohammadzamani
 }
